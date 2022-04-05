@@ -19,7 +19,8 @@ app.use(cookieParser());
 app.use(
   cors({
     origin: [
-      "http://localhost:3000"
+      "http://localhost:3000",
+      "https://jays-login-testing.netlify.app"
     ],
     credentials: true,
   })
